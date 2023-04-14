@@ -33,6 +33,16 @@ body {
   background-color: rgb(255, 255, 255, 0.5);
 }
 
+.calculator-grid .output:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+::ng-deep .tableTask td:last-child {
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
 .calculator-grid > button:hover,
 .calculator-grid > button:focus {
   background-color: rgb(255, 255, 255, 0.9);
